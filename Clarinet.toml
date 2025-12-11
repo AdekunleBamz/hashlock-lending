@@ -1,9 +1,7 @@
 [project]
 name = "hashlock-lending"
 description = "HashLock Lending — Trustless BTCFi lending on Stacks"
-authors = ["Your Name"]
-email = "you@example.com"  # Optional, but add to avoid warnings
-clarity_version = "4"  # Global Clarity 4 (quoted for TOML safety)
+clarity_version = "4"
 
 [contracts.hashlock-core]
 path = "contracts/hashlock-core.clar"
@@ -15,4 +13,8 @@ clarity_version = "4"
 
 [contracts.flash-receiver-example]
 path = "contracts/flash-receiver-example.clar"
+clarity_version = "4"
+
+[contracts.safe-vault-base]
+path = "contracts/safe-vault-base.clar"
 clarity_version = "4"
