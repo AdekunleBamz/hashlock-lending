@@ -1,17 +1,18 @@
 [project]
 name = "hashlock-lending"
 description = "HashLock Lending — Trustless BTCFi lending on Stacks"
-clarity_version = 4
-cache_dir = "./.clarinet-cache"
+authors = ["Your Name"]
+email = "you@example.com"  # Optional, but add to avoid warnings
+clarity_version = "4"  # Global Clarity 4 (quoted for TOML safety)
 
 [contracts.hashlock-core]
 path = "contracts/hashlock-core.clar"
-clarity_version = 4
+clarity_version = "4"
 
 [contracts.hashlock-isolated-sbtc-v1]
 path = "contracts/hashlock-isolated-sbtc-v1.clar"
-clarity_version = 4
+clarity_version = "4"
 
 [contracts.flash-receiver-example]
 path = "contracts/flash-receiver-example.clar"
-clarity_version = 4
+clarity_version = "4"
