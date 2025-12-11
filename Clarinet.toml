@@ -3,13 +3,13 @@ name = "hashlock-lending"
 clarity_version = "4"
 
 [contracts.hashlock-core]
-path = "contracts/Hashlock-core.clar"
+path = "contracts/hashlock-core.clar"
 clarity_version = "4"
 
 [contracts.hashlock-isolated-sbtc-v1]
-path = "contracts/Hashlock-isolated-sbtc-v1.clar"
+path = "contracts/hashlock-isolated-sbtc-v1.clar"
 clarity_version = "4"
 
 [contracts.safe-vault-base]
-path = "contracts/Safe-vault-base.clar"
+path = "contracts/safe-vault-base.clar"
 clarity_version = "4"
