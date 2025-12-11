@@ -1,4 +1,4 @@
-;; Hashlock-isolated-sbtc-v1.clar — Immutable flash-loan vault template
+;; hashlock-isolated-sbtc-v1.clar — Immutable flash-loan vault template
 (define-constant FEE u9) ;; 0.09%
 (define-constant ERR-REPAY (err u300))
 
