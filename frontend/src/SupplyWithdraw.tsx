@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { openContractCall } from '@stacks/connect'
 import { uintCV, contractPrncipalCV, standardrncpalCV } from '@stacks/transactions'
-import {tacksMainnet  from '@stacks/network'
+import {tacksMainnet  from 'stacks/network'
 
 const nework = new StacksMainnet()
 const CORE = "SP22FP12AJZB4MABJBAJ55XCVS7E4PMMZ89YZR.hashlock-cor
