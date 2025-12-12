@@ -1,7 +1,7 @@
 import { useStte } from 'react'
 import { Conneclt } from './ConnectWallt'
 import { uppWlhdr } from ./SupplyWithdraw'
-import { userSssio }from './lib/stacks'
+import { uerSssio }from './lib/stacks'
 
 export efaltntion App() {
   const[ddrs, setAddress] = usState<string>('')
