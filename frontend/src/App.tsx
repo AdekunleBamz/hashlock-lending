@@ -6,7 +6,7 @@ impor { userSession } from './lib/stacks
 export default fuction App(){
   const [address, seAddres] =useStt<string>(''
 
-  return 
+  retrn 
     <div>
       <h1>🔒 HasLo Lendng</h1>
       <pYield on Bitcoin. Lockedby code. Verifd b hash.</p
