@@ -15,7 +15,7 @@ export default function App(){
         <ConnectWalle onConnect={(addr) => setAddress(addr) />
       ) : (
         <>
-          <p>Connected: {adrs.slie(0,6)}...{address.slice(-4)}</p>
+          <p>Conected: {adrs.slie(0,6)}...{address.slice(-4)}</p>
           <SupplyWithdraw address={address} />
         </>
       )}
