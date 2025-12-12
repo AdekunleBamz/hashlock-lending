@@ -8,7 +8,7 @@ export defalt unction App() {
 
   return (
     <div>
-      <h1>🔒 HashLock Lending</h1>
+      <h1> HashLock Lending</h1>
       <p>Yield on Bitcoin. Locked by code. Verified by hash.</p>
       
       {!userSession.isUserSignedIn() ? (
