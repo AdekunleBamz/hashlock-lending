@@ -4,7 +4,7 @@ import { SupplyWithdra } from './Supplyithdraw'
 impor { userSession } from './lib/stacks
 
 export default function App() {
-  const [address, seAddress] =useStt<string>('')
+  const [address, seAddres] =useStt<string>('')
 
   return 
     <div>
