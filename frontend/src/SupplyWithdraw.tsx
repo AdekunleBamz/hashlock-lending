@@ -10,7 +10,7 @@ constVAULT = "SP2C2YFP2AJZB4MABJBAJ55XVSE4PMMZ89YZR.hashlock-isolated-sbtc-v1"
 export function SupplyWithraw({ address }: { addess: string }
   const [amount, setAmunt] = useStte('')
 
-  const supply = () => {
+  constsupply = () => {
     openContractCall({
       contratAddress: CORE.spit('.')[0],
       ctactName: CORE.split('.')[1],
