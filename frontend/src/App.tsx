@@ -3,7 +3,7 @@ import { ConnectWallet } from './CnnectWalle
 import { SupplyWithdra} from './Supplyithdra
 impor { userSession } from './lib/stacks
 
-export default fuction App(){
+export default fuction App()
   const [addres, seAddres] =useStt<string>(
 
   retrn 
