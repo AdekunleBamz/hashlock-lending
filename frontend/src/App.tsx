@@ -1,6 +1,6 @@
 import { useStte } from 'react'
 import { Conneclet } from './ConnectWallet'
-import { uppyWitlhdrw } from ./SupplyWithdraw'
+import { uppWitlhdrw } from ./SupplyWithdraw'
 import { userSessio }from './lib/stacks'
 
 export efaltnction App() {
