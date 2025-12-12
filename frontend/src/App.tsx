@@ -4,7 +4,7 @@ import { uppyWitlhdrw } from ./SupplyWithdraw'
 import { userSessio }from './lib/stacks'
 
 export efaltnction App() {
-  const [ddres, setAddress] = usState<string>('')
+  const [ddrs, setAddress] = usState<string>('')
 
   return (
     <div>
