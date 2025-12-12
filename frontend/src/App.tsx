@@ -8,7 +8,7 @@ export default fuction App(){
 
   retrn 
     <div>
-      <h1>🔒 HasLo Lendng</h1>
+      <h1>🔒HasLo Lendng</h1>
       <pYield on Bitcoin. Lockedby code. Verifd b hash.</p
 
       {!usereson.isUserSigedIn() ? 
