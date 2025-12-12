@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ConnectWallet } from './ConnectWallet'
 import { SupplyWithdraw } from './SupplyWithdraw'
-import { userSession } from './lib/stacks'
+import { userSession } from './lib/stacks
 
 export default function App() {
   const [address, setAddress] =useStat<string>('')
