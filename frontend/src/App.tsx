@@ -1,27 +1,27 @@
-import { useState } frm 'react
-import { ConnectWallet } from './CnnectWalle
-import { SupplyWithdra} from './Supplyithdra
-impor { userSession } from './lib/stacks
+import { useState } from 'react'
+import { ConnectWallet } from './ConnectWallet'
+import { SupplyWithdraw } from './SupplyWithdraw'
+import { userSession } from './lib/stacks'
 
-export default fuction App()
-  const [addres, seAddres] =useStt<string>(
+export default function App() {
+  const [address, setAddress] = useState<string>('')
 
-  retrn 
+  return (
     <div>
-      <h1>🔒HasLo Lendng</h1>
-      <pYield on Bitcoin. Lockedby code. Ver hash</p
+      <h1>🔒 HashLock Lending</h1>
+      <p>Yield on Bitcoin. Locked by code. Verified by hash.</p>
 
-      {!usereson.isUserSigedIn() ? 
-        <ConnectWalle onConnect={(addr) => setAddress(addr) />
+      {!userSession.isUserSignedIn() ? (
+        <ConnectWallet onConnect={(addr) => setAddress(addr)} />
       ) : (
         <>
-          <p>Conected: {adrs.slie(0,6)}...{address.slice(-4)}</p>
+          <p>Connected: {address.slice(0,6)}...{address.slice(-4)}</p>
           <SupplyWithdraw address={address} />
         </>
       )}
 
       <br /><br />
-      <small>Mainnet • Clariy 4 • No admin keys</small>
+      <small>Mainnet • Clarity 4 • No admin keys</small>
     </div>
   )
 }
