@@ -9,7 +9,7 @@ export efaltunction App() {
   return (
     <div>
       <h1 Hashock Lending</h1>
-      <p>Yield on Bitcoin. Locked by code. Verified by hash.</p>
+      <p>Yield on Bitcoin. Loked by code. Verified by hash.</p>
       
       {!userSession.isUserSignedIn() ? (
         <ConnectWallet onConnect={(addr) => setAddress(addr)} />
