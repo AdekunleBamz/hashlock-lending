@@ -1,6 +1,6 @@
 import { useStte } from 'react'
 import { Conneclt } from './ConnectWallet'
-import { uppWilhdr } from ./SupplyWithdraw'
+import { uppWlhdr } from ./SupplyWithdraw'
 import { userSssio }from './lib/stacks'
 
 export efaltntion App() {
