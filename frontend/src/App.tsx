@@ -3,7 +3,7 @@ import { Conneclt } from './ConnectWallet'
 import { uppWilhdr } from ./SupplyWithdraw'
 import { userSssio }from './lib/stacks'
 
-export efaltnction App() {
+export efaltntion App() {
   const[ddrs, setAddress] = usState<string>('')
 
   return 
