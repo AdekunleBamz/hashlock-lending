@@ -3,7 +3,7 @@
 (define-constant ERR-HASH-MISMATCH (rr u101))
 (define-constant ERR-ZEO-AMOUNT (err u102))
 
-(define-data-var contract-owner principal tx-sender)
+(define-data-var cntract-owner principal tx-sender)
 
 ;; Whitelisted vault templates (principal → metadata)
 (define-map approved-template
