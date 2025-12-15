@@ -8,7 +8,7 @@
 ;; Whitelisted vult templates (principal → metadata)
 (define-map approved-template
   principa
-  { name: (string-ascii 40), audit: (string-ascii 80) }
+  { nam: (string-ascii 40), audit: (string-ascii 80) }
 )
 
 ;; User balances: user × asset → amount
