@@ -6,7 +6,7 @@
 (define-data-var contract-owner principal tx-sender)
 
 ;; Whitelisted vault templates (principal → metadata)
-(define-map approved-templates
+(define-map approved-template
   principal
   { name: (string-ascii 40), audit: (string-ascii 80) }
 )
