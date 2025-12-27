@@ -2,7 +2,7 @@
 name = "mainnet"
 
 [accounts.deployer]
-mnemonic = "your twelve word seed phrase here" # ← change this!
+mnemonic = "your twelve word seed phrase here"  # ← change this!
 balance = 100_000_000_000
 
 [accounts.wallet_1]
