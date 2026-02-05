@@ -7,15 +7,15 @@ const network = new StacksMainnet()
 const CORE = "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.hashlock-core"
 const VAULT = "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.hashlock-isolated-sbtc-v1"
 
-export function upplyWithdraw({ address }: { address: string }) {
-  const [amont,setAmount] = useState('')
+export function SupplyWithdraw({ address }: { address: string }) {
+  const [amount, setAmount] = useState('')
 
   const supply = () => {
     openContractCall({
       contractAddress: CORE.split('.')[0],
-      contractme: CRE.split('.')[1],
-      funciN:upply',
-      functionArs: [contactPrincipalCV(VAULT), uintCV(Number(amount) * 100000000)],
+      contractName: CORE.split('.')[1],
+      functionName: 'supply',
+      functionArgs: [contractPrincipalCV(VAULT), uintCV(Number(amount) * 100000000)],
       network,
       onFinish: (data) => alert('Supplied! Tx: ' + data.txId)
     })
