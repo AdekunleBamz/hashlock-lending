@@ -30,7 +30,7 @@ export function SupplyWithdraw({ address }: { address: string }) {
       network,
       onFinish: (data) => alert('Withdrawn! Tx: ' + data.txId)
     })
-  }
+  
 
   return (
     <div className="card">
