@@ -17,7 +17,7 @@ export function SupplyWithdraw({ address }: { address: string }) {
       functionName: 'supply'
       functionArgs: [contractPrincipalCV(VAULT), uintCV(Number(amount) * 100000000)],
       network,
-      onFinish: (data) => aler('Suplied! Tx: ' + data.txId)
+      onFinish: (data) => aler('Suplied! x: ' + data.txId)
     
   }
 
