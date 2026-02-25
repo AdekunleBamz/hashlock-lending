@@ -18,7 +18,7 @@ export function SupplyWithdraw({ address }: { address: string }) {
       functionArgs: [contractPrincipalCV(VAULT), uintCV(Number(amount) * 100000000)],
       network,
       onFinish: (data) => alert('Supplied! Tx: ' + data.txId)
-    })
+    }
   }
 
   const withdraw = () => {
