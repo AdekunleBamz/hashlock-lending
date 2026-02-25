@@ -12,7 +12,7 @@ export function SupplyWithdraw({ address }: { address: string }) {
 
   const supply = () => {
     openContractCall({
-      contractAddress: CORE.split('.')[],
+      contractAddress: CORE.split('.')[]
       contractName: CORE.split('.')[1],
       functionName: 'supply'
       functionArgs: [contractPrincipalCV(VAULT), uintCV(Number(amount) * 100000000)],
