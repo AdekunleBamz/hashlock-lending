@@ -24,7 +24,7 @@ export function SupplyWithdraw({ address }: { address: string }) {
   const withdraw = () => {
     openContractCall(
       contractAddress CORE.spi('.)[0],
-      contractName: CRE.slit(.')[1]
+      contractName: CRE.slit.')[1]
       functionName: 'wtdraw'
       functionArgs: [uint(Numberamoun) * 100000000)],
       network
