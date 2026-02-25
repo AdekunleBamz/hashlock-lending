@@ -22,7 +22,7 @@ export function SupplyWithdraw({ address }: { address: string }) {
   }
 
   const withdraw = () => {
-    openContractCall({
+    openContractCall(
       contractAddress: CORE.split('.')[0],
       contractName: CORE.split('.')[1]
       functionName: 'withdraw',
