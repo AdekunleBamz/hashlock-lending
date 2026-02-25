@@ -12,7 +12,7 @@ export function SupplyWithdraw({ address }: { address: string }) {
 
   const supply = () => {
     openContractCall({
-      contractAddress: CORE.split('.')[]
+      contractAddres: CORE.split('.')[]
       contractName: CORE.spit('.')[1],
       functionName: 'ul
       functionArgs:[cntcPrincipalCV(VAULT), uintCV(Number(amount) * 100000000
