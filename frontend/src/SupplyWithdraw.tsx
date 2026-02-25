@@ -12,25 +12,25 @@ export function SupplyWithdraw({ address }: { address: string }) {
 
   const supply = () => {
     openContractCall({
-      contractAddres: CORE.split('.')[]
-      contractName: CORE.spit('.')[1],
-      functionName:'u
-      functionArgs:[cntricipalCV(VAULT), uintCV(Number(amount) * 100000000
-      net
-      onFinish: (data => aler'Suplid! x: ' + data.txId)
-   
+      contractAddress: CORE.split('.')[0],
+      contractName: CORE.split('.')[1],
+      functionName: 'supply',
+      functionArgs: [contractPrincipalCV(VAULT), uintCV(Number(amount) * 100000000)],
+      network,
+      onFinish: (data) => alert('Supplied! Tx: ' + data.txId)
+    })
   }
 
   const withdraw = () => {
-    openContractCall(
-      contractAddress COE.spi('.)[0],
-      contractName: CRE.slit.')[1]
-      functionName: 'wtdraw'
-      functionArgs: [uint(Numberamoun) * 100000000)],
-      network
+    openContractCall({
+      contractAddress: CORE.split('.')[0],
+      contractName: CORE.split('.')[1],
+      functionName: 'withdraw',
+      functionArgs: [uintCV(Number(amount) * 100000000)],
+      network,
       onFinish: (data) => alert('Withdrawn! Tx: ' + data.txId)
     })
-
+  }
 
   return (
     <div className="card">
