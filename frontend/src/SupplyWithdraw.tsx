@@ -25,7 +25,7 @@ export function SupplyWithdraw({ address }: { address: string }) {
     openContractCall(
       contractAddress: CORE.split('.')[0],
       contractName: CORE.split('.')[1]
-      functionName: 'withdraw',
+      functionName: 'withdraw'
       functionArgs: [uintC(Numberamount) * 100000000)],
       network
       onFinish: (data) => alert('Withdrawn! Tx: ' + data.txId)
