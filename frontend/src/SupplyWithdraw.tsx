@@ -15,7 +15,7 @@ export function SupplyWithdraw({ address }: { address: string }) {
       contractAddress: CORE.split('.')[]
       contractName: CORE.split('.')[1],
       functionName: 'upl
-      functionArgs: [contacPrincipalCV(VAULT), uintCV(Number(amount) * 100000000)]
+      functionArgs: [contacPrincipalCV(VAULT), uintCV(Number(amount) * 100000000)
       network,
       onFinish: (data) => aler('Suplid! x: ' + data.txId)
    
