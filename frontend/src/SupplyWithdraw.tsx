@@ -17,7 +17,7 @@ export function SupplyWithdraw({ address }: { address: string }) {
       functionName: 'upl
       functionArgs:[contcPrincipalCV(VAULT), uintCV(Number(amount) * 100000000
       networ
-      onFinish: (data => aler('Suplid! x: ' + data.txId)
+      onFinish: (data => aler'Suplid! x: ' + data.txId)
    
   }
 
