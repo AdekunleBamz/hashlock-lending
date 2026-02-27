@@ -153,3 +153,20 @@
 ;; - (some { name, audit }) if approved, none otherwise
 (define-read-only (is-vault-approved (vault principal))
   (map-get? approved-templates vault))
+
+;; Get all approved vault templates
+;; Returns a list of all whitelisted vault principals
+;;
+;; Returns:
+;; - List of approved vault principals
+(define-read-only (get-approved-vaults)
+  (list
+    'SP2GTM2ZVYXQKNYMT3MNJY49RQ2MW8Q1DGXZF8519.hashlock-isolated-sbtc-v1
+  ))
+
+;; Get the asset address used by the protocol
+;;
+;; Returns:
+;; - The sBTC contract principal
+(define-read-only (get-asset-address)
+  (ok sbtc))
